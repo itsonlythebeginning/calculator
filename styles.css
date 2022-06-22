@@ -1,0 +1,242 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a191d;
+
+
+
+}
+
+
+
+.container {
+
+    display: flex;
+
+
+
+
+}
+
+
+.screen {
+
+    display: flex;
+    position: relative;
+    height: 800px;
+    width: 500px;
+    background-color: black;
+    border-radius: 40px;
+
+}
+
+.grid_markup {
+
+    display: grid;
+    position: absolute;
+    background-color: #281010;
+    width: 100%;
+    height: 70%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    bottom:0;
+
+    border-radius: 40px;
+
+}
+
+
+.btn {
+
+
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: dimgrey;
+    box-shadow: 25px 25px 25px rgba(0,0,0,0.25) ,
+    10px 10px 70px rgba(0,0,0,0.25) ,
+    inset 5px 5px 10px rgba(255,255,255,0.2) ,
+    inset 5px 5px rgba(12, 12, 12, 0.2) ,
+    inset -5px -5px 15px rgba(12, 12, 12, 0.75) ;
+    font-weight: 500;
+    font-size: 2em;
+    font-family: "Exo 2";
+    color: whitesmoke;
+
+
+
+
+}
+
+#zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 220px;
+    height: 90px;
+    border-radius: 70px;
+
+
+
+}
+
+
+.btn:hover {
+
+
+    background-color: #484343;
+
+}
+
+
+
+
+#two {
+
+    background-color: #dc8615;
+
+}
+
+#two:hover {
+
+    background-color: #a6630c;
+
+}
+
+#one {
+
+    background-color: #dc8615;
+
+}
+
+#one:hover {
+
+    background-color: #a6630c;
+
+}
+
+#three {
+
+    background-color: #dc8615;
+
+}
+
+#three:hover {
+
+    background-color: #a6630c;
+
+}
+
+#four {
+
+    background-color: #dc8615;
+
+}
+
+#four:hover {
+
+    background-color: #a6630c;
+
+}
+#five {
+
+    background-color: #dc8615;
+
+}
+
+#five:hover {
+
+    background-color: #a6630c;
+
+}
+
+
+
+#clear_all {
+
+
+    background-color: #e5dfdf;
+    color: black;
+
+}
+
+
+#clear_all:hover {
+    background-color: #b4acac;
+}
+
+#plus_minus:hover {
+    background-color: #b4acac;
+}
+#persent:hover {
+    background-color: #b4acac;
+}
+
+
+
+
+
+#plus_minus {
+    text-align: center;
+
+    background-color: #e5dfdf;
+    color: black;
+    transform: rotate(180deg);
+    box-shadow: -25px -25px 25px rgba(0,0,0,0.25) ,
+    -10px -10px 70px rgba(0,0,0,0.25) ,
+    inset -5px -5px 10px rgba(255,255,255,0.2) ,
+    inset -5px -5px rgba(12, 12, 12, 0.2) ,
+    inset 5px 5px 15px rgba(12, 12, 12, 0.75) ;
+
+
+
+}
+
+
+#persent {
+
+
+    background-color: #e5dfdf;
+    color: black;
+
+
+}
+
+
+
+#result {
+
+    position: absolute;
+    display: flex;
+
+    width: 100%;
+    height: 10%;
+    background-color: purple;
+    bottom: 70%;
+    font-family: "Exo 2";
+    font-weight: 500;
+    font-size: 3em;
+    color: whitesmoke;
+    background-color: black;
+
+
+
+}
+
+
+
